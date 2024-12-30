@@ -58,14 +58,14 @@ PCL    >= 1.8,   Follow [PCL Installation](http://www.pointclouds.org/downloads/
 
 Eigen  >= 3.3.4, Follow [Eigen Installation](http://eigen.tuxfamily.org/index.php?title=Main_Page).
 
-### 1.3. **livox_ros_driver**
+### 1.3. **livox_ros_driver2**
 
-Follow [livox_ros_driver Installation](https://github.com/Livox-SDK/livox_ros_driver).
+Follow [livox_ros_driver2 Installation](https://github.com/Livox-SDK/livox_ros_driver2).
 
 *Remarks:*
 
-- Since the **LI_Init** must support Livox serials LiDAR firstly, so the **livox_ros_driver** must be installed and **sourced** before run any LI_Init luanch file.
-- How to source? The easiest way is add the line `source $Livox_ros_driver_dir$/devel/setup.bash` to the end of file `~/.bashrc`, where `$Livox_ros_driver_dir$` is the directory of the livox_ros_driver workspace (should be the `ws_livox` directory if you completely followed the livox official document).
+- Since the **LI_Init** must support Livox serials LiDAR firstly, so the **livox_ros_driver2** must be installed and **sourced** before run any LI_Init luanch file.
+- How to source? The easiest way is add the line `source $livox_ros_driver2_dir$/devel/setup.bash` to the end of file `~/.bashrc`, where `$livox_ros_driver2_dir$` is the directory of the livox_ros_driver2 workspace (should be the `ws_livox` directory if you completely followed the livox official document).
 
 ###  **1.4. ceres-solver**
 
